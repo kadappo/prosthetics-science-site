@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="面向公众的假肢与神经工程中文科普网站：了解假肢类型、肌电控制、感觉反馈、康复与真实使用体验。">
+  <title>LimbLab｜重新认识假肢</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23143b36'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-size='38' font-family='Georgia' font-style='italic' fill='%23f5f2e9'%3EL%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="主要导航">
+      <a class="brand" href="#top" aria-label="LimbLab 首页"><span class="brand-mark" aria-hidden="true">L</span><span>LimbLab</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span><span class="sr-only">打开菜单</span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#basics">认识假肢</a><a href="#technology">技术原理</a><a href="#people">人与康复</a><a href="#myths">常见误区</a><a href="#learn">互动学习</a>
+      </div>
+      <a class="language-switch" href="index.html" lang="en" hreflang="en" aria-label="Switch to English">EN</a>
+      <a class="nav-cta" href="#participate">参与项目</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> PROSTHETICS · NEUROENGINEERING</p>
+        <h1>假肢不只是<br><em>“机械手脚”</em></h1>
+        <p class="hero-lead">它连接工程、医学、神经科学，也连接一个人的生活方式与选择。用十分钟，从“能动”读到“能感觉”。</p>
+        <div class="hero-actions"><a class="button primary" href="#basics">开始探索 <span>↗</span></a><a class="button text-button" href="#quiz">先测测我了解多少 →</a></div>
+        <dl class="hero-stats"><div><dt>4</dt><dd>类常见控制方式</dd></div><div><dt>3</dt><dd>层感觉反馈链路</dd></div><div><dt>∞</dt><dd>种不同使用需求</dd></div></dl>
+      </div>
+      <div class="hero-visual reveal" aria-label="手、传感器和神经信号的示意图">
+        <div class="signal-card signal-a"><span class="signal-dot"></span><strong>EMG</strong><small>肌电信号</small></div>
+        <div class="signal-card signal-b"><span class="signal-wave">∿</span><strong>TACTILE</strong><small>触觉反馈</small></div>
+        <svg class="hand-graphic" viewBox="0 0 520 590" role="img" aria-label="抽象的仿生手示意图">
+          <defs><linearGradient id="handFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dcece9"/><stop offset="1" stop-color="#aacdc7"/></linearGradient></defs>
+          <path d="M164 528c-8-45-11-89-8-133l7-102c2-24 38-23 40 1l2 71 7-197c1-29 44-29 45 1l2 170 11-230c2-30 46-27 44 4l-7 225 23-190c4-28 46-22 41 8l-27 202 34-135c7-27 46-16 39 12l-36 153c-9 38-27 72-54 100l-5 40z" fill="url(#handFill)" stroke="#173d38" stroke-width="3"/>
+          <g fill="none" stroke="#467f77" stroke-width="2"><path d="M205 365c52 13 105 13 158-4"/><path d="M225 419c40 17 82 17 124 1"/><path d="M259 339l-3 104"/><path d="M307 338l-11 106"/></g>
+          <g fill="#ff7b60"><circle cx="278" cy="150" r="6"/><circle cx="234" cy="211" r="6"/><circle cx="352" cy="203" r="6"/><circle cx="373" cy="307" r="6"/></g>
+          <g fill="none" stroke="#ff7b60" stroke-width="2" stroke-dasharray="5 7"><path d="M278 150C388 83 453 123 471 194"/><path d="M234 211C116 168 72 246 62 317"/></g>
+        </svg>
+        <div class="visual-caption"><span>01</span><p><strong>双向连接</strong><br>大脑发出动作意图，传感器把环境信息送回使用者。</p></div>
+      </div>
+    </section>
+
+    <section class="intro-band" aria-label="核心观点"><div class="shell intro-grid"><p class="section-index">01 — THE BASICS</p><blockquote>最好的假肢，不一定是功能最多的那一只，而是最适合某位使用者生活的那一只。</blockquote></div></section>
+
+    <section class="section shell" id="basics">
+      <div class="section-head reveal"><div><p class="eyebrow">先建立正确概念</p><h2>一件设备，<br>多种目的</h2></div><p>假肢（prosthesis）用于替代全部或部分缺失肢体的外形或功能。它可能帮助行走、抓握、保持身体平衡或完成特定运动，也可能主要满足外观需要。是否使用、使用哪一种，都应由使用者与专业团队共同决定。</p></div>
+      <div class="type-grid">
+        <article class="type-card reveal"><span class="card-number">01</span><div class="line-icon body-icon" aria-hidden="true"></div><h3>美容型假肢</h3><p>重视外形、重量与舒适性，通常没有主动关节。它能恢复身体轮廓，也可辅助稳定或支撑物体。</p><ul><li>优势：安静、轻便、维护较少</li><li>限制：主动动作功能有限</li></ul></article>
+        <article class="type-card reveal featured"><span class="card-number">02</span><div class="line-icon cable-icon" aria-hidden="true"></div><h3>身体动力型</h3><p>通过肩部、躯干或残肢动作拉动缆索，控制手钩或机械手。使用者可从缆索张力获得一定的间接反馈。</p><ul><li>优势：耐用、响应直接</li><li>限制：需要较明显的身体动作</li></ul></article>
+        <article class="type-card reveal"><span class="card-number">03</span><div class="line-icon pulse-icon" aria-hidden="true"></div><h3>肌电型假肢</h3><p>电极读取残余肌肉收缩产生的微弱电信号，算法将其转换为开合、旋转或不同抓握模式。</p><ul><li>优势：动作潜力更丰富</li><li>限制：价格、电池、训练与信号稳定性</li></ul></article>
+        <article class="type-card reveal"><span class="card-number">04</span><div class="line-icon sport-icon" aria-hidden="true"></div><h3>活动专用型</h3><p>为跑步、骑行、游泳、乐器或工作工具设计。“专用”并不等于低技术，而是把功能集中在明确任务上。</p><ul><li>优势：任务表现与可靠性</li><li>限制：适用情境较单一</li></ul></article>
+      </div>
+      <aside class="note-box reveal"><strong>别忽略“不使用”这一选择</strong><p>有些截肢者只在特定活动中使用假肢，有些人不使用。假肢不是衡量康复是否“成功”的唯一标准，独立性、舒适、参与感与个人目标同样重要。</p></aside>
+    </section>
+
+    <section class="section dark-section" id="technology">
+      <div class="shell">
+        <div class="section-head light reveal"><div><p class="eyebrow">从意图到动作</p><h2>假肢如何<br>“听懂”身体？</h2></div><p>以肌电手为例，系统并不是读取思想，而是读取肌肉活动。完整的控制链包含采集、解码、执行和反馈；任何一环不稳定，最终体验都会受影响。</p></div>
+        <div class="process" role="list">
+          <article role="listitem"><span>01</span><h3>产生意图</h3><p>使用者尝试完成某个动作，大脑通过运动神经激活残余肌肉。</p></article><i>→</i>
+          <article role="listitem"><span>02</span><h3>采集信号</h3><p>皮肤表面电极测量肌纤维活动产生的电位变化。</p></article><i>→</i>
+          <article role="listitem"><span>03</span><h3>算法解码</h3><p>阈值、模式识别或更复杂模型判断使用者想进行的动作。</p></article><i>→</i>
+          <article role="listitem"><span>04</span><h3>驱动关节</h3><p>电机执行开合、旋转或抓握；控制需要在速度与稳定性之间平衡。</p></article>
+        </div>
+        <div class="signal-lab reveal">
+          <div class="lab-copy"><p class="eyebrow coral">INTERACTIVE SIGNAL LAB</p><h3>试着控制一只肌电手</h3><p>拖动“肌肉收缩”滑块。信号必须超过阈值才会触发动作；但阈值太低，也可能把噪声误判为意图。</p><label for="emg-range">肌肉收缩强度 <output id="emg-value">35%</output></label><input id="emg-range" type="range" min="0" max="100" value="35"><div class="threshold"><span>静息噪声</span><span>控制阈值 45%</span><span>强收缩</span></div></div>
+          <div class="lab-visual"><div class="emg-screen"><span>LIVE EMG</span><svg viewBox="0 0 500 150" preserveAspectRatio="none"><polyline id="emg-line" points="0,78 25,75 50,82 75,76 100,80 125,75 150,81 175,76 200,79 225,74 250,82 275,77 300,80 325,76 350,81 375,75 400,80 425,77 450,81 475,76 500,79"/></svg><div class="threshold-line"></div></div><div class="grip-indicator"><div class="grip-ring"><span id="grip-value">待机</span></div><p id="grip-copy">信号低于控制阈值</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell sensation">
+      <div class="section-head reveal"><div><p class="eyebrow">从动作到感觉</p><h2>“能抓住”和<br>“能感觉”不同</h2></div><p>传统假肢主要解决从人到机器的运动命令。感觉反馈则尝试建立反向通道：设备检测接触，再以振动、电刺激或神经刺激向使用者传递信息。</p></div>
+      <div class="feedback-diagram reveal">
+        <div class="feedback-node"><span>1</span><div class="sensor-symbol">◎</div><h3>传感</h3><p>力、压力、滑动、关节角度或温度传感器记录状态。</p></div>
+        <div class="feedback-arrow"><b>环境信息</b><i>⟶</i></div>
+        <div class="feedback-node"><span>2</span><div class="sensor-symbol">⌁</div><h3>编码</h3><p>系统把传感器数据转换为人体可以区分的刺激模式。</p></div>
+        <div class="feedback-arrow"><b>刺激模式</b><i>⟶</i></div>
+        <div class="feedback-node"><span>3</span><div class="sensor-symbol">✦</div><h3>感知</h3><p>使用者学习把刺激理解为接触位置、力度或手指姿态。</p></div>
+      </div>
+      <div class="compare-table reveal">
+        <div class="compare-row table-head"><span>反馈方式</span><span>如何工作</span><span>主要优势</span><span>仍待解决</span></div>
+        <div class="compare-row"><strong>视觉反馈</strong><span>直接看假肢和物体</span><span>无需额外硬件</span><span>持续占用注意力</span></div>
+        <div class="compare-row"><strong>振动 / 皮肤电刺激</strong><span>在残肢皮肤施加刺激</span><span>非植入、风险较低</span><span>感觉位置未必像来自手部</span></div>
+        <div class="compare-row"><strong>周围神经接口</strong><span>电极刺激仍与大脑相连的神经</span><span>有机会产生定位到缺失手部的感觉</span><span>需手术；长期稳定性与个体差异</span></div>
+        <div class="compare-row"><strong>感觉替代</strong><span>用声音、压力等替代触觉信息</span><span>设计灵活，可避免植入</span><span>需要学习，不完全等同自然触觉</span></div>
+      </div>
+      <p class="evidence-note reveal"><strong>怎样理解研究结论？</strong> 小规模实验已表明，部分参与者能够利用神经反馈改善力度判断、物体识别或操作信心。但“实验室中可感知”不等于“已普遍进入日常临床”：样本量、随访时间、手术风险、维护成本和真实家庭使用都需要继续评估。</p>
+    </section>
+
+    <section class="section people-section" id="people"><div class="shell">
+      <div class="section-head reveal"><div><p class="eyebrow">技术之外</p><h2>真正的系统，<br>始终包括“人”</h2></div><p>接受腔是否舒适、设备是否可靠、能否获得维修服务，往往比某个实验室指标更能决定一只假肢是否会被长期使用。</p></div>
+      <div class="journey-grid">
+        <article class="journey-card reveal"><span>01</span><h3>评估与共同决策</h3><p>团队了解残肢情况、生活环境、职业活动、外观偏好和预算。目标不应只由设备参数决定。</p></article>
+        <article class="journey-card reveal"><span>02</span><h3>适配与调整</h3><p>接受腔连接身体与假肢。残肢体积、出汗和皮肤状况会变化，因此舒适适配通常是持续过程。</p></article>
+        <article class="journey-card reveal"><span>03</span><h3>训练与学习</h3><p>作业治疗或物理治疗帮助使用者学习控制、完成日常任务，并形成安全、节能的动作策略。</p></article>
+        <article class="journey-card reveal"><span>04</span><h3>长期支持</h3><p>维修、耗材、软件更新、复诊和同伴支持共同影响设备能否真正融入生活。</p></article>
+      </div>
+      <div class="decision-panel reveal"><div><p class="eyebrow">A BETTER QUESTION</p><h3>不要只问：“它有多少功能？”</h3></div><ul><li>佩戴两小时后还舒适吗？</li><li>在教室、家里或工作场景中可靠吗？</li><li>充电、清洁和维修是否方便？</li><li>新功能是否值得额外重量和学习成本？</li><li>使用者本人最在乎的结果是什么？</li></ul></div>
+    </div></section>
+
+    <section class="section shell" id="myths">
+      <div class="section-head compact reveal"><div><p class="eyebrow">MYTH / FACT</p><h2>四个常见误区</h2></div><p>点击问题查看解释。好的科普，不把复杂问题讲成只有一个答案。</p></div>
+      <div class="accordion">
+        <article class="accordion-item reveal open"><button type="button" aria-expanded="true"><span><b>误区 01</b>仿生手已经能像自然手一样灵活、灵敏。</span><i>−</i></button><div class="accordion-content"><p><strong>事实：</strong>先进系统可以实现多种抓握，研究型接口也能传递部分触觉或位置感觉，但自然手同时拥有大量关节、感受器与快速神经调节。当前技术恢复的是部分功能，不是完整复制。</p></div></article>
+        <article class="accordion-item reveal"><button type="button" aria-expanded="false"><span><b>误区 02</b>越昂贵、关节越多，就一定越好用。</span><i>＋</i></button><div class="accordion-content"><p><strong>事实：</strong>更多功能也可能带来更高重量、更复杂控制和更多维修需求。适合具体任务、容易维护且佩戴舒适的设备，可能更符合使用者目标。</p></div></article>
+        <article class="accordion-item reveal"><button type="button" aria-expanded="false"><span><b>误区 03</b>安装假肢后，康复就结束了。</span><i>＋</i></button><div class="accordion-content"><p><strong>事实：</strong>适配、皮肤护理、控制训练和设备调整需要时间。身体和生活需求也会改变，康复通常是动态过程。</p></div></article>
+        <article class="accordion-item reveal"><button type="button" aria-expanded="false"><span><b>误区 04</b>所有截肢者都想要看起来完全“正常”。</span><i>＋</i></button><div class="accordion-content"><p><strong>事实：</strong>有人重视自然外观，有人喜欢呈现机械结构，也有人不使用假肢。尊重的做法是询问个人偏好，而不是替对方定义“完整”。</p></div></article>
+      </div>
+    </section>
+
+    <section class="section learn-section" id="learn"><div class="shell">
+      <div class="section-head light compact reveal"><div><p class="eyebrow">CHECK YOUR UNDERSTANDING</p><h2>互动学习区</h2></div><p>用三道题检查你是否抓住了关键概念。答错没有关系，每道题都会给出解释。</p></div>
+      <div class="quiz-card reveal" id="quiz">
+        <div class="quiz-top"><span id="quiz-progress">问题 1 / 3</span><div class="progress-track"><i id="progress-fill"></i></div><span id="quiz-score">得分 0</span></div>
+        <div id="quiz-content"></div>
+      </div>
+      <div class="glossary reveal"><div class="glossary-head"><h3>一分钟术语库</h3><label>搜索术语 <input id="term-search" type="search" placeholder="例如：肌电、接受腔……"></label></div><div class="term-grid" id="term-grid">
+        <article data-term="残肢 residual limb"><strong>残肢</strong><small>Residual limb</small><p>截肢后保留的肢体部分。比“断肢”等表达更准确、尊重。</p></article>
+        <article data-term="接受腔 socket"><strong>接受腔</strong><small>Socket</small><p>包裹残肢并把身体力量传到假肢的定制界面。</p></article>
+        <article data-term="肌电 emg myoelectric"><strong>肌电信号</strong><small>Electromyography · EMG</small><p>肌肉激活时可被电极测得的电位变化。</p></article>
+        <article data-term="本体感觉 proprioception"><strong>本体感觉</strong><small>Proprioception</small><p>不看肢体也能感知其位置和运动的能力。</p></article>
+        <article data-term="触觉反馈 sensory tactile feedback"><strong>触觉反馈</strong><small>Tactile feedback</small><p>把接触、压力或滑动等信息传回使用者。</p></article>
+        <article data-term="周围神经接口 peripheral nerve interface"><strong>周围神经接口</strong><small>Peripheral nerve interface</small><p>与脑和脊髓之外的神经交换信号的技术界面。</p></article>
+      </div></div>
+    </div></section>
+
+    <section class="section shell participate" id="participate">
+      <div class="participate-copy reveal"><p class="eyebrow">PUBLIC SCIENCE PROJECT</p><h2>让科普从<br>真实问题出发</h2><p>这个项目希望了解公众最想知道什么，并据此更新内容。问卷不收集姓名、联系方式或医疗记录；你的选择只保存在当前浏览器，除非你主动复制并提交。</p><div class="privacy-note"><span>⌾</span><p><strong>隐私提示</strong><br>请勿填写病历、联系方式或可识别个人身份的信息。本网站提供一般科普，不替代医生、假肢矫形师或康复治疗师的建议。</p></div></div>
+      <form class="interest-form reveal" id="interest-form">
+        <fieldset><legend>你最想继续了解哪一部分？</legend><label><input type="radio" name="interest" value="控制技术" required><span>肌电与控制技术</span></label><label><input type="radio" name="interest" value="感觉反馈"><span>触觉与神经接口</span></label><label><input type="radio" name="interest" value="康复体验"><span>康复和真实使用体验</span></label><label><input type="radio" name="interest" value="公平可及"><span>价格、公平与可及性</span></label></fieldset>
+        <label class="textarea-label" for="question">你对假肢还有什么问题？（选填）</label><textarea id="question" maxlength="240" placeholder="请勿输入任何个人医疗信息"></textarea><div class="form-bottom"><small><span id="char-count">0</span>/240</small><button class="button primary" type="submit">生成匿名反馈</button></div><div class="form-result" id="form-result" hidden></div>
+      </form>
+    </section>
+
+    <section class="section sources-section" id="sources"><div class="shell"><div class="section-head compact reveal"><div><p class="eyebrow">READ FURTHER</p><h2>资料来源</h2></div><p>内容经过简化以便公众理解。阅读研究时请区分实验室原型、临床研究与已经普及的产品。</p></div><ol class="sources-list reveal">
+      <li><span>01</span><p><strong>World Health Organization.</strong> Prosthetics and orthotics. 关于辅助技术、服务体系和全球可及性的基础资料。 <a href="https://www.who.int/news-room/fact-sheets/detail/assistive-technology" target="_blank" rel="noreferrer">访问 WHO ↗</a></p></li>
+      <li><span>02</span><p><strong>Raspopovic S. et al. (2014).</strong> Restoring natural sensory feedback in real-time bidirectional hand prostheses. <em>Science Translational Medicine</em>, 6(222). <a href="https://doi.org/10.1126/scitranslmed.3006820" target="_blank" rel="noreferrer">DOI ↗</a></p></li>
+      <li><span>03</span><p><strong>D’Anna E. et al. (2019).</strong> A closed-loop hand prosthesis with simultaneous intraneural tactile and position feedback. <em>Science Robotics</em>, 4(27). <a href="https://doi.org/10.1126/scirobotics.aau8892" target="_blank" rel="noreferrer">DOI ↗</a></p></li>
+      <li><span>04</span><p><strong>Furui A. et al. (2019).</strong> A myoelectric prosthetic hand with muscle synergy-based motion determination and biomimetic control. <em>Science Robotics</em>, 4(31). <a href="https://doi.org/10.1126/scirobotics.aaw6339" target="_blank" rel="noreferrer">DOI ↗</a></p></li>
+      <li><span>05</span><p><strong>Ortiz-Catalan M. et al. (2020).</strong> Self-contained neuromusculoskeletal arm prostheses. <em>New England Journal of Medicine</em>, 382, 1732–1738. <a href="https://doi.org/10.1056/NEJMoa1917537" target="_blank" rel="noreferrer">DOI ↗</a></p></li>
+    </ol></div></section>
+  </main>
+
+  <footer><div class="shell footer-grid"><div><a class="brand footer-brand" href="#top"><span class="brand-mark">L</span><span>LimbLab</span></a><p>从工程原理出发，以人的真实需要为中心。</p></div><div><strong>快速导航</strong><a href="#basics">认识假肢</a><a href="#technology">技术原理</a><a href="#people">人与康复</a></div><div><strong>项目说明</strong><a href="#sources">资料来源</a><a href="#participate">匿名反馈</a><span>教育用途 · 非医疗建议</span></div></div><div class="shell footer-bottom"><span>© 2026 LimbLab Public Science Project</span><a href="#top">回到顶部 ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
